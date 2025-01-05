@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Button } from "./ui/button";
 import { useToast } from "./ui/use-toast";
 import { Copy } from "lucide-react";
@@ -15,6 +15,106 @@ const GENRES = [
   "マーケティング",
 ] as const;
 
+// ジャンルごとの固定単語リスト
+const GENRE_WORDS: { [key: string]: string[] } = {
+  ビジネススキル: [
+    "分析する",
+    "提案する",
+    "交渉する",
+    "計画する",
+    "実行する",
+    "評価する",
+    "改善する",
+    "管理する",
+    "調整する",
+    "報告する",
+  ],
+  コミュニケーション: [
+    "傾聴する",
+    "共感する",
+    "説明する",
+    "質問する",
+    "理解する",
+    "伝える",
+    "対話する",
+    "議論する",
+    "調整する",
+    "まとめる",
+  ],
+  自己啓発: [
+    "学習する",
+    "実践する",
+    "振り返る",
+    "目標設定する",
+    "挑戦する",
+    "継続する",
+    "成長する",
+    "改善する",
+    "行動する",
+    "習慣化する",
+  ],
+  タイムマネジメント: [
+    "計画する",
+    "優先順位付けする",
+    "効率化する",
+    "スケジュールする",
+    "時間配分する",
+    "管理する",
+    "実行する",
+    "評価する",
+    "改善する",
+    "習慣化する",
+  ],
+  リーダーシップ: [
+    "指導する",
+    "motivateする",
+    "判断する",
+    "決定する",
+    "委任する",
+    "育成する",
+    "支援する",
+    "評価する",
+    "統率する",
+    "率先する",
+  ],
+  プレゼンテーション: [
+    "構成する",
+    "説明する",
+    "表現する",
+    "伝える",
+    "魅せる",
+    "演出する",
+    "強調する",
+    "整理する",
+    "視覚化する",
+    "共有する",
+  ],
+  問題解決: [
+    "分析する",
+    "特定する",
+    "検討する",
+    "解決する",
+    "実行する",
+    "評価する",
+    "改善する",
+    "予防する",
+    "対応する",
+    "最適化する",
+  ],
+  マーケティング: [
+    "分析する",
+    "企画する",
+    "提案する",
+    "実行する",
+    "検証する",
+    "改善する",
+    "訴求する",
+    "差別化する",
+    "展開する",
+    "最適化する",
+  ],
+};
+
 const RandomWords = () => {
   const [selectedGenre, setSelectedGenre] = useState<string | null>(null);
   const [words, setWords] = useState<string[]>([]);
@@ -23,55 +123,12 @@ const RandomWords = () => {
   const [wordContent, setWordContent] = useState<string[]>([]);
   const { toast } = useToast();
 
-  // 選択されたジャンルの単語を取得
-  const fetchRandomWords = async (genre: string) => {
-    setIsLoading(true);
-    // 結果表示をクリア
+  // ジャンルが選択された時の処理
+  const handleGenreClick = (genre: string) => {
+    setSelectedGenre(genre);
+    setWords(GENRE_WORDS[genre]);
     setSelectedWord(null);
     setWordContent([]);
-    try {
-      const response = await fetch(
-        "https://apiwalk.tacarz.workers.dev/api/deepseek/v1/chat/completions",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            messages: [
-              {
-                role: "user",
-                content: `${genre}に関連する動詞を10個、カンマ区切りで出力してください。説明は不要です。`,
-              },
-            ],
-          }),
-        }
-      );
-
-      const data = await response.json();
-      const wordList = data.choices[0].message.content
-        .split(",")
-        .map((word: string) => word.trim());
-      setWords(wordList);
-      toast({
-        title: "更新完了",
-        description: "新しい単語を取得しました",
-      });
-    } catch (error) {
-      toast({
-        title: "エラーが発生しました",
-        description: "単語の取得に失敗しました。",
-        variant: "destructive",
-      });
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  // ジャンルが選択された時の処理
-  const handleGenreClick = async (genre: string) => {
-    setSelectedGenre(genre);
-    await fetchRandomWords(genre);
   };
 
   // 単語クリック時の処理
@@ -250,16 +307,20 @@ const RandomWords = () => {
 
             <div className="text-center mb-4">
               <Button
-                onClick={async () => {
+                onClick={() => {
                   setSelectedWord(null);
                   setWordContent([]);
-                  await fetchRandomWords(selectedGenre);
+                  setWords(
+                    [...GENRE_WORDS[selectedGenre!]].sort(
+                      () => Math.random() - 0.5
+                    )
+                  );
                 }}
                 disabled={isLoading}
                 className="bg-primary hover:bg-primary/90 text-white px-6 py-2 rounded-lg text-sm transition-colors"
                 size="default"
               >
-                {isLoading ? "読み込み中..." : "新しい単語を取得"}
+                {isLoading ? "読み込み中..." : "単語をシャッフル"}
               </Button>
             </div>
           </>
