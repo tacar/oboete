@@ -194,7 +194,7 @@ const RandomWords = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20 py-12 px-4">
+    <div className="bg-gradient-to-b from-background to-secondary/20 py-12 px-4">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
           {selectedGenre || "ジャンルを選択"}

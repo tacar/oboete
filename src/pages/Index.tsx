@@ -2,7 +2,7 @@ import RandomWords from "@/components/RandomWords";
 
 const Index = () => {
   return (
-    <div>
+    <div className="py-12">
       <RandomWords />
     </div>
   );
