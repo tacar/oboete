@@ -194,14 +194,14 @@ const RandomWords = () => {
   };
 
   return (
-    <div className="bg-gradient-to-b from-background to-secondary/20 py-12 px-4">
+    <div className="bg-gradient-to-b from-background to-secondary/20 pt-0 pb-6 px-4">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
+        <h2 className="text-2xl font-bold mb-2 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
           {selectedGenre || "ジャンルを選択"}
         </h2>
 
         {/* ジャンル一覧 */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
           {GENRES.map((genre, index) => (
             <div
               key={index}
@@ -226,7 +226,7 @@ const RandomWords = () => {
         {/* 単語一覧 */}
         {selectedGenre && (
           <>
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-6">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-3 mb-4">
               {words.map((word, index) => (
                 <div
                   key={index}
@@ -248,7 +248,7 @@ const RandomWords = () => {
               ))}
             </div>
 
-            <div className="text-center mb-8">
+            <div className="text-center mb-4">
               <Button
                 onClick={async () => {
                   setSelectedWord(null);
@@ -268,7 +268,7 @@ const RandomWords = () => {
         {/* 単語の詳細コンテンツ */}
         {selectedWord && (
           <>
-            <h2 className="text-xl font-bold mb-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
+            <h2 className="text-xl font-bold mb-2 text-center bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary/80">
               {selectedWord}
             </h2>
             <section className="kekka">
