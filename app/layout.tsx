@@ -4,14 +4,16 @@ import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "この流れは覚えておきたい",
-  description: "ビジネスや生活に役立つアクションのステップを提供",
+  description:
+    "ビジネスや生活の様々なシーンで使える実践的なアクションステップを提供。行動のヒントを得たいときや、具体的な手順を確認したいときに便利です。",
   icons: {
     icon: [{ url: "./favicon.ico" }, { url: "./icon.png", type: "image/png" }],
     apple: { url: "./apple-icon.png" },
   },
   openGraph: {
     title: "この流れは覚えておきたい",
-    description: "ビジネスや生活に役立つアクションのステップを提供",
+    description:
+      "ビジネスや生活の様々なシーンで使える実践的なアクションステップを提供。行動のヒントを得たいときや、具体的な手順を確認したいときに便利です。",
     images: [
       {
         url: "./og-image.png",
@@ -24,7 +26,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "この流れは覚えておきたい",
-    description: "ビジネスや生活に役立つアクションのステップを提供",
+    description:
+      "ビジネスや生活の様々なシーンで使える実践的なアクションステップを提供。行動のヒントを得たいときや、具体的な手順を確認したいときに便利です。",
     images: ["./og-image.png"],
     creator: "@tacarzen",
   },

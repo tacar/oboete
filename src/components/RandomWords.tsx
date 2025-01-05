@@ -292,6 +292,10 @@ const RandomWords = () => {
                     <span>この流れは覚えておきたい😇</span>
                     <Copy className="h-4 w-4 opacity-50 group-hover:opacity-100 transition-opacity" />
                   </div>
+                  <p className="text-xs text-muted-foreground/60 mt-2">
+                    ※
+                    提案内容はAIが生成したものです。状況に応じて適宜アレンジしてお使いください。
+                  </p>
                 </div>
               )}
             </section>
