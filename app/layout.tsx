@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import React from "react";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "この流れは覚えておきたい",
@@ -37,7 +38,10 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <head />
-      <body>{children}</body>
+      <body className="flex flex-col min-h-screen">
+        <main className="flex-grow">{children}</main>
+        <Footer />
+      </body>
     </html>
   );
 }
