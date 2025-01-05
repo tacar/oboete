@@ -18,14 +18,15 @@ const Contact = () => {
             <br />
             Twitter（X）のDMにてお願いいたします。
           </p>
-          <div>
-            <Button
-              onClick={handleTwitterClick}
-              className="bg-[#1DA1F2] hover:bg-[#1a8cd8] text-white px-8 py-6 rounded-lg text-lg transition-colors inline-flex items-center gap-3"
-            >
-              <Twitter className="h-6 w-6" />
-              <span>@tacarzen</span>
-            </Button>
+          <div className="contact-container">
+            <div className="contact-content">
+              <Button
+                onClick={handleTwitterClick}
+                className="twitter-button bg-[#1DA1F2] hover:bg-[#1DA1F2]/90"
+              >
+                <Twitter className="twitter-icon" />
+              </Button>
+            </div>
           </div>
           <p className="text-sm text-muted-foreground/80">
             ご要望やご感想もお待ちしております。
