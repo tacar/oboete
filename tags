@@ -4,414 +4,106 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-ADD_TOAST	src/hooks/use-toast.ts	/^  ADD_TOAST: "ADD_TOAST",$/;"	m
-About	src/App.tsx	/^import About from ".\/pages\/About";$/;"	I
-Action	src/hooks/use-toast.ts	/^type Action =$/;"	t
-ActionType	src/hooks/use-toast.ts	/^type ActionType = typeof actionTypes$/;"	t
-App	src/main.tsx	/^import App from '.\/App.tsx'$/;"	I
-Badge	src/components/ui/badge.tsx	/^function Badge({ className, variant, ...props }: BadgeProps) {$/;"	f
-BadgeProps	src/components/ui/badge.tsx	/^export interface BadgeProps$/;"	i
-ButtonProps	src/components/ui/button.tsx	/^export interface ButtonProps$/;"	i
-Calendar	src/components/ui/calendar.tsx	/^function Calendar({$/;"	f
-CalendarProps	src/components/ui/calendar.tsx	/^export type CalendarProps = React.ComponentProps<typeof DayPicker>;$/;"	t
-CarouselApi	src/components/ui/carousel.tsx	/^  type CarouselApi,$/;"	t
-CarouselApi	src/components/ui/carousel.tsx	/^type CarouselApi = UseEmblaCarouselType[1]$/;"	t
-CarouselContextProps	src/components/ui/carousel.tsx	/^type CarouselContextProps = {$/;"	t
-CarouselOptions	src/components/ui/carousel.tsx	/^type CarouselOptions = UseCarouselParameters[0]$/;"	t
-CarouselPlugin	src/components/ui/carousel.tsx	/^type CarouselPlugin = UseCarouselParameters[1]$/;"	t
-CarouselProps	src/components/ui/carousel.tsx	/^type CarouselProps = {$/;"	t
-ChartConfig	src/components/ui/chart.tsx	/^export type ChartConfig = {$/;"	t
-ChartContextProps	src/components/ui/chart.tsx	/^type ChartContextProps = {$/;"	t
-CommandDialogProps	src/components/ui/command.tsx	/^interface CommandDialogProps extends DialogProps {}$/;"	i
-Contact	src/pages/Contact.tsx	/^import Contact from "@\/components\/Contact";$/;"	I
-ContactPage	src/App.tsx	/^import ContactPage from ".\/pages\/Contact";$/;"	I
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--accent))',$/;"	m
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--card))',$/;"	m
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--destructive))',$/;"	m
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--muted))',$/;"	m
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--popover))',$/;"	m
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--primary))',$/;"	m
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--secondary))',$/;"	m
-DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--sidebar-background))',$/;"	m
-DISMISS_TOAST	src/hooks/use-toast.ts	/^  DISMISS_TOAST: "DISMISS_TOAST",$/;"	m
-FormFieldContextValue	src/components/ui/form.tsx	/^type FormFieldContextValue<$/;"	t
-FormItemContextValue	src/components/ui/form.tsx	/^type FormItemContextValue = {$/;"	t
-IconLeft	src/components/ui/calendar.tsx	/^        IconLeft: ({ ..._props }) => <ChevronLeft className="h-4 w-4" \/>,$/;"	m
-IconRight	src/components/ui/calendar.tsx	/^        IconRight: ({ ..._props }) => <ChevronRight className="h-4 w-4" \/>,$/;"	m
-Index	src/App.tsx	/^import Index from ".\/pages\/Index";$/;"	I
-Navbar	src/App.tsx	/^import Navbar from ".\/components\/Navbar";$/;"	I
-PaginationLinkProps	src/components/ui/pagination.tsx	/^type PaginationLinkProps = {$/;"	t
-REMOVE_TOAST	src/hooks/use-toast.ts	/^  REMOVE_TOAST: "REMOVE_TOAST",$/;"	m
-RandomWords	src/pages/Index.tsx	/^import RandomWords from "@\/components\/RandomWords";$/;"	I
-React	src/components/RandomWords.tsx	/^import React, { useState, useEffect } from "react";$/;"	I
-Services	src/pages/Services.tsx	/^import Services from "@\/components\/Services";$/;"	I
-ServicesPage	src/App.tsx	/^import ServicesPage from ".\/pages\/Services";$/;"	I
-SheetContentProps	src/components/ui/sheet.tsx	/^interface SheetContentProps$/;"	i
-SidebarContext	src/components/ui/sidebar.tsx	/^type SidebarContext = {$/;"	t
-Skeleton	src/components/ui/skeleton.tsx	/^function Skeleton({$/;"	f
-State	src/hooks/use-toast.ts	/^interface State {$/;"	i
-TextareaProps	src/components/ui/textarea.tsx	/^export interface TextareaProps$/;"	i
-Toast	src/hooks/use-toast.ts	/^type Toast = Omit<ToasterToast, "id">$/;"	t
-ToastActionElement	src/components/ui/toast.tsx	/^  type ToastActionElement,$/;"	t
-ToastActionElement	src/components/ui/toast.tsx	/^type ToastActionElement = React.ReactElement<typeof ToastAction>$/;"	t
-ToastProps	src/components/ui/toast.tsx	/^  type ToastProps,$/;"	t
-ToastProps	src/components/ui/toast.tsx	/^type ToastProps = React.ComponentPropsWithoutRef<typeof Toast>$/;"	t
-Toaster	src/components/ui/toaster.tsx	/^export function Toaster() {$/;"	f
-ToasterProps	src/components/ui/sonner.tsx	/^type ToasterProps = React.ComponentProps<typeof Sonner>$/;"	t
-ToasterToast	src/hooks/use-toast.ts	/^type ToasterToast = ToastProps & {$/;"	t
-UPDATE_TOAST	src/hooks/use-toast.ts	/^  UPDATE_TOAST: "UPDATE_TOAST",$/;"	m
-UseCarouselParameters	src/components/ui/carousel.tsx	/^type UseCarouselParameters = Parameters<typeof useEmblaCarousel>$/;"	t
-UseEmblaCarouselType	src/components/ui/carousel.tsx	/^  type UseEmblaCarouselType,$/;"	t
-__html	src/components/ui/chart.tsx	/^        __html: Object.entries(THEMES)$/;"	m
-_setOpen	src/components/ui/sidebar.tsx	/^          _setOpen(openState)$/;"	m
-accent	tailwind.config.ts	/^					accent: 'hsl(var(--sidebar-accent))',$/;"	m
-accent	tailwind.config.ts	/^				accent: {$/;"	m
-actionButton	src/components/ui/sonner.tsx	/^          actionButton:$/;"	m
-addToRemoveQueue	src/hooks/use-toast.ts	/^          addToRemoveQueue(toast.id)$/;"	m
-addToRemoveQueue	src/hooks/use-toast.ts	/^        addToRemoveQueue(toastId)$/;"	m
-alias	vite.config.ts	/^    alias: {$/;"	m
-animation	tailwind.config.ts	/^			animation: {$/;"	m
-api	src/components/ui/carousel.tsx	/^          api: api,$/;"	m
-api	src/components/ui/carousel.tsx	/^  api: ReturnType<typeof useEmblaCarousel>[1]$/;"	m
-axis	src/components/ui/carousel.tsx	/^        axis: orientation === "horizontal" ? "x" : "y",$/;"	m
-background	tailwind.config.ts	/^				background: 'hsl(var(--background))',$/;"	m
-backgroundColor	src/components/ui/chart.tsx	/^                    backgroundColor: item.color,$/;"	m
-body	src/components/RandomWords.tsx	/^          body: JSON.stringify({$/;"	m
-border	tailwind.config.ts	/^					border: 'hsl(var(--sidebar-border))',$/;"	m
-border	tailwind.config.ts	/^				border: 'hsl(var(--border))',$/;"	m
-borderRadius	tailwind.config.ts	/^			borderRadius: {$/;"	m
-bottom	src/components/ui/sheet.tsx	/^        bottom:$/;"	m
-buttonVariants	src/components/ui/alert-dialog.tsx	/^      buttonVariants({ variant: "outline" }),$/;"	m
-buttonVariants	src/components/ui/calendar.tsx	/^          buttonVariants({ variant: "ghost" }),$/;"	m
-buttonVariants	src/components/ui/calendar.tsx	/^          buttonVariants({ variant: "outline" }),$/;"	m
-buttonVariants	src/components/ui/pagination.tsx	/^      buttonVariants({$/;"	m
-canScrollNext	src/components/ui/carousel.tsx	/^  canScrollNext: boolean$/;"	m
-canScrollPrev	src/components/ui/carousel.tsx	/^  canScrollPrev: boolean$/;"	m
-cancelButton	src/components/ui/sonner.tsx	/^          cancelButton:$/;"	m
-caption	src/components/ui/calendar.tsx	/^        caption: "flex justify-center pt-1 relative items-center",$/;"	m
-caption_label	src/components/ui/calendar.tsx	/^        caption_label: "text-sm font-medium",$/;"	m
-card	tailwind.config.ts	/^				card: {$/;"	m
-carouselRef	src/components/ui/carousel.tsx	/^  carouselRef: ReturnType<typeof useEmblaCarousel>[0]$/;"	m
-cell	src/components/ui/calendar.tsx	/^        cell: "h-9 w-9 text-center text-sm p-0 relative [&:has([aria-selected].day-range-end)]:rounded-r-md [&:has([aria-selected].day-outside)]:bg-accent\/50 [&:has([aria-selected])]:bg-accent first:[&:has([aria-selected])]:rounded-l-md last:[&:has([aria-selected])]:rounded-r-md focus-within:relative focus-within:z-20",$/;"	m
-center	tailwind.config.ts	/^			center: true,$/;"	m
-children	src/components/ui/chart.tsx	/^    children: React.ComponentProps<$/;"	m
-children	src/components/ui/sidebar.tsx	/^        children: tooltip,$/;"	m
-classNames	src/components/ui/sonner.tsx	/^        classNames: {$/;"	m
-cn	src/lib/utils.ts	/^export function cn(...inputs: ClassValue[]) {$/;"	f
-colors	tailwind.config.ts	/^			colors: {$/;"	m
-componentTagger	vite.config.ts	/^    componentTagger(),$/;"	m
-config	src/components/ui/chart.tsx	/^    config: ChartConfig$/;"	m
-config	src/components/ui/chart.tsx	/^  config: ChartConfig$/;"	m
-config	src/components/ui/chart.tsx	/^  config: ChartConfig,$/;"	m
-container	tailwind.config.ts	/^		container: {$/;"	m
-content	src/components/RandomWords.tsx	/^                content: `「${word}」について、3〜5個のステップを考えて、箇条書きで出力してください。各ステップは具体的に書いてください。`,$/;"	m
-content	src/components/RandomWords.tsx	/^                content:$/;"	m
-content	tailwind.config.ts	/^	content: [$/;"	m
-createRoot	src/main.tsx	/^createRoot(document.getElementById("root")!).render(<App \/>);$/;"	m
-darkMode	tailwind.config.ts	/^	darkMode: ["class"],$/;"	m
-day	src/components/ui/calendar.tsx	/^        day: cn($/;"	m
-day_disabled	src/components/ui/calendar.tsx	/^        day_disabled: "text-muted-foreground opacity-50",$/;"	m
-day_hidden	src/components/ui/calendar.tsx	/^        day_hidden: "invisible",$/;"	m
-day_outside	src/components/ui/calendar.tsx	/^        day_outside:$/;"	m
-day_range_end	src/components/ui/calendar.tsx	/^        day_range_end: "day-range-end",$/;"	m
-day_range_middle	src/components/ui/calendar.tsx	/^        day_range_middle:$/;"	m
-day_selected	src/components/ui/calendar.tsx	/^        day_selected:$/;"	m
-day_today	src/components/ui/calendar.tsx	/^        day_today: "bg-accent text-accent-foreground",$/;"	m
-default	src/components/ui/alert.tsx	/^        default: "bg-background text-foreground",$/;"	m
-default	src/components/ui/badge.tsx	/^        default:$/;"	m
-default	src/components/ui/button.tsx	/^        default: "bg-primary text-primary-foreground hover:bg-primary\/90",$/;"	m
-default	src/components/ui/button.tsx	/^        default: "h-10 px-4 py-2",$/;"	m
-default	src/components/ui/sidebar.tsx	/^        default: "h-8 text-sm",$/;"	m
-default	src/components/ui/sidebar.tsx	/^        default: "hover:bg-sidebar-accent hover:text-sidebar-accent-foreground",$/;"	m
-default	src/components/ui/toast.tsx	/^        default: "border bg-background text-foreground",$/;"	m
-default	src/components/ui/toggle.tsx	/^        default: "bg-transparent",$/;"	m
-default	src/components/ui/toggle.tsx	/^        default: "h-10 px-3",$/;"	m
-defaultVariants	src/components/ui/alert.tsx	/^    defaultVariants: {$/;"	m
-defaultVariants	src/components/ui/badge.tsx	/^    defaultVariants: {$/;"	m
-defaultVariants	src/components/ui/button.tsx	/^    defaultVariants: {$/;"	m
-defaultVariants	src/components/ui/sheet.tsx	/^    defaultVariants: {$/;"	m
-defaultVariants	src/components/ui/sidebar.tsx	/^    defaultVariants: {$/;"	m
-defaultVariants	src/components/ui/toast.tsx	/^    defaultVariants: {$/;"	m
-defaultVariants	src/components/ui/toggle.tsx	/^    defaultVariants: {$/;"	m
-description	src/components/Contact.tsx	/^      description: "お問い合わせありがとうございます。担当者より連絡させていただきます。",$/;"	m
-description	src/components/RandomWords.tsx	/^        description: "内容の取得に失敗しました。もう一度お試しください。",$/;"	m
-description	src/components/RandomWords.tsx	/^        description: "単語の取得に失敗しました。もう一度お試しください。",$/;"	m
-description	src/components/RandomWords.tsx	/^        description: "新しい単語を取得しました",$/;"	m
-description	src/components/Services.tsx	/^    description: "強固なセキュリティで、お客様の大切な情報を守ります。",$/;"	m
-description	src/components/Services.tsx	/^    description: "最新技術を活用した、スケーラブルなシステムを開発します。",$/;"	m
-description	src/components/Services.tsx	/^    description: "豊富な経験を活かし、最適なソリューションを提案します。",$/;"	m
-description	src/components/ui/sonner.tsx	/^          description: "group-[.toast]:text-muted-foreground",$/;"	m
-destructive	src/components/ui/alert.tsx	/^        destructive:$/;"	m
-destructive	src/components/ui/badge.tsx	/^        destructive:$/;"	m
-destructive	src/components/ui/button.tsx	/^        destructive:$/;"	m
-destructive	src/components/ui/toast.tsx	/^        destructive:$/;"	m
-destructive	tailwind.config.ts	/^				destructive: {$/;"	m
-dismiss	src/hooks/use-toast.ts	/^    dismiss: (toastId?: string) => dispatch({ type: "DISMISS_TOAST", toastId }),$/;"	m
-dispatch	src/hooks/use-toast.ts	/^    dispatch({$/;"	m
-dispatch	src/hooks/use-toast.ts	/^  dispatch({$/;"	m
-dispatch	src/hooks/use-toast.ts	/^function dispatch(action: Action) {$/;"	f
-extend	tailwind.config.ts	/^		extend: {$/;"	m
-fetchRandomWords	src/components/RandomWords.tsx	/^    fetchRandomWords();$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--accent-foreground))'$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--card-foreground))'$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--destructive-foreground))'$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--muted-foreground))'$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--popover-foreground))'$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--primary-foreground))'$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--secondary-foreground))'$/;"	m
-foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--sidebar-foreground))',$/;"	m
-foreground	tailwind.config.ts	/^				foreground: 'hsl(var(--foreground))',$/;"	m
-formDescriptionId	src/components/ui/form.tsx	/^    formDescriptionId: `${id}-form-item-description`,$/;"	m
-formItemId	src/components/ui/form.tsx	/^    formItemId: `${id}-form-item`,$/;"	m
-formMessageId	src/components/ui/form.tsx	/^    formMessageId: `${id}-form-item-message`,$/;"	m
-formatter	src/components/ui/chart.tsx	/^                  formatter(item.value, item.name, item, index, item.payload)$/;"	m
-from	tailwind.config.ts	/^					from: {$/;"	m
-genId	src/hooks/use-toast.ts	/^function genId() {$/;"	f
-getPayloadConfigFromPayload	src/components/ui/chart.tsx	/^function getPayloadConfigFromPayload($/;"	f
-ghost	src/components/ui/button.tsx	/^        ghost: "hover:bg-accent hover:text-accent-foreground",$/;"	m
-head_cell	src/components/ui/calendar.tsx	/^        head_cell:$/;"	m
-head_row	src/components/ui/calendar.tsx	/^        head_row: "flex",$/;"	m
-headers	src/components/RandomWords.tsx	/^          headers: {$/;"	m
-height	tailwind.config.ts	/^						height: '0'$/;"	m
-height	tailwind.config.ts	/^						height: 'var(--radix-accordion-content-height)'$/;"	m
-host	vite.config.ts	/^    host: "::",$/;"	m
-hover	src/components/RandomWords.tsx	/^                hover:border-primary\/30 hover:shadow-primary\/20$/;"	m
-icon	src/components/Services.tsx	/^    icon: <Server className="h-12 w-12 text-primary" \/>,$/;"	m
-icon	src/components/Services.tsx	/^    icon: <Shield className="h-12 w-12 text-primary" \/>,$/;"	m
-icon	src/components/Services.tsx	/^    icon: <Zap className="h-12 w-12 text-primary" \/>,$/;"	m
-icon	src/components/ui/button.tsx	/^        icon: "h-10 w-10",$/;"	m
-id	src/components/ui/form.tsx	/^  id: string$/;"	m
-id	src/hooks/use-toast.ts	/^    id: id,$/;"	m
-id	src/hooks/use-toast.ts	/^  id: string$/;"	m
-if	src/components/ui/carousel.tsx	/^        if (event.key === "ArrowLeft") {$/;"	m
-if	src/components/ui/carousel.tsx	/^      if (!api || !setApi) {$/;"	m
-if	src/components/ui/carousel.tsx	/^      if (!api) {$/;"	m
-if	src/components/ui/carousel.tsx	/^  if (!context) {$/;"	m
-if	src/components/ui/chart.tsx	/^      if (!value) {$/;"	m
-if	src/components/ui/chart.tsx	/^      if (hideLabel || !payload?.length) {$/;"	m
-if	src/components/ui/chart.tsx	/^      if (labelFormatter) {$/;"	m
-if	src/components/ui/chart.tsx	/^    if (!active || !payload?.length) {$/;"	m
-if	src/components/ui/chart.tsx	/^    if (!payload?.length) {$/;"	m
-if	src/components/ui/chart.tsx	/^  if (!colorConfig.length) {$/;"	m
-if	src/components/ui/chart.tsx	/^  if (!context) {$/;"	m
-if	src/components/ui/chart.tsx	/^  if ($/;"	m
-if	src/components/ui/chart.tsx	/^  if (typeof payload !== "object" || payload === null) {$/;"	m
-if	src/components/ui/form.tsx	/^  if (!body) {$/;"	m
-if	src/components/ui/form.tsx	/^  if (!fieldContext) {$/;"	m
-if	src/components/ui/sidebar.tsx	/^        if ($/;"	m
-if	src/components/ui/sidebar.tsx	/^        if (setOpenProp) {$/;"	m
-if	src/components/ui/sidebar.tsx	/^    if (!tooltip) {$/;"	m
-if	src/components/ui/sidebar.tsx	/^    if (collapsible === "none") {$/;"	m
-if	src/components/ui/sidebar.tsx	/^    if (isMobile) {$/;"	m
-if	src/components/ui/sidebar.tsx	/^    if (typeof tooltip === "string") {$/;"	m
-if	src/components/ui/sidebar.tsx	/^  if (!context) {$/;"	m
-if	src/hooks/use-toast.ts	/^        if (!open) dismiss()$/;"	m
-if	src/hooks/use-toast.ts	/^      if (action.toastId === undefined) {$/;"	m
-if	src/hooks/use-toast.ts	/^      if (index > -1) {$/;"	m
-if	src/hooks/use-toast.ts	/^      if (toastId) {$/;"	m
-if	src/hooks/use-toast.ts	/^  if (toastTimeouts.has(toastId)) {$/;"	m
-input	tailwind.config.ts	/^				input: 'hsl(var(--input))',$/;"	m
-isMobile	src/components/ui/sidebar.tsx	/^  isMobile: boolean$/;"	m
-key	src/components/ui/chart.tsx	/^  key: string$/;"	m
-keyframes	tailwind.config.ts	/^			keyframes: {$/;"	m
-left	src/components/ui/sheet.tsx	/^        left: "inset-y-0 left-0 h-full w-3\/4 border-r data-[state=closed]:slide-out-to-left data-[state=open]:slide-in-from-left sm:max-w-sm",$/;"	m
-lg	src/components/ui/button.tsx	/^        lg: "h-11 rounded-md px-8",$/;"	m
-lg	src/components/ui/sidebar.tsx	/^        lg: "h-12 text-sm group-data-[collapsible=icon]:!p-0",$/;"	m
-lg	src/components/ui/toggle.tsx	/^        lg: "h-11 px-5",$/;"	m
-lg	tailwind.config.ts	/^				lg: 'var(--radius)',$/;"	m
-link	src/components/ui/button.tsx	/^        link: "text-primary underline-offset-4 hover:underline",$/;"	m
-listener	src/hooks/use-toast.ts	/^    listener(memoryState)$/;"	m
-md	tailwind.config.ts	/^				md: 'calc(var(--radius) - 2px)',$/;"	m
-messages	src/components/RandomWords.tsx	/^            messages: [$/;"	m
-method	src/components/RandomWords.tsx	/^          method: "POST",$/;"	m
-month	src/components/ui/calendar.tsx	/^        month: "space-y-4",$/;"	m
-months	src/components/ui/calendar.tsx	/^        months: "flex flex-col sm:flex-row space-y-4 sm:space-x-4 sm:space-y-0",$/;"	m
-muted	tailwind.config.ts	/^				muted: {$/;"	m
-name	src/components/ui/form.tsx	/^    name: fieldContext.name,$/;"	m
-name	src/components/ui/form.tsx	/^  name: TName$/;"	m
-nav	src/components/ui/calendar.tsx	/^        nav: "space-x-1 flex items-center",$/;"	m
-nav_button	src/components/ui/calendar.tsx	/^        nav_button: cn($/;"	m
-nav_button_next	src/components/ui/calendar.tsx	/^        nav_button_next: "absolute right-1",$/;"	m
-nav_button_previous	src/components/ui/calendar.tsx	/^        nav_button_previous: "absolute left-1",$/;"	m
-onOpenChange	src/components/ui/sidebar.tsx	/^      onOpenChange: setOpenProp,$/;"	m
-onOpenChange	src/hooks/use-toast.ts	/^      onOpenChange: (open) => {$/;"	m
-onSelect	src/components/ui/carousel.tsx	/^      onSelect(api)$/;"	m
-open	src/components/ui/sidebar.tsx	/^      open: openProp,$/;"	m
-open	src/components/ui/sidebar.tsx	/^  open: boolean$/;"	m
-open	src/hooks/use-toast.ts	/^                open: false,$/;"	m
-open	src/hooks/use-toast.ts	/^      open: true,$/;"	m
-openMobile	src/components/ui/sidebar.tsx	/^  openMobile: boolean$/;"	m
-orientation	src/components/ui/carousel.tsx	/^          orientation:$/;"	m
-outline	src/components/ui/badge.tsx	/^        outline: "text-foreground",$/;"	m
-outline	src/components/ui/button.tsx	/^        outline:$/;"	m
-outline	src/components/ui/sidebar.tsx	/^        outline:$/;"	m
-outline	src/components/ui/toggle.tsx	/^        outline:$/;"	m
-padding	tailwind.config.ts	/^			padding: '2rem',$/;"	m
-path	vite.config.ts	/^import path from "path";$/;"	I
-payload	src/components/ui/chart.tsx	/^  payload: unknown,$/;"	m
-plugins	tailwind.config.ts	/^	plugins: [require("tailwindcss-animate")],$/;"	m
-plugins	vite.config.ts	/^  plugins: [$/;"	m
-popover	tailwind.config.ts	/^				popover: {$/;"	m
-port	vite.config.ts	/^    port: 8080,$/;"	m
-prefix	tailwind.config.ts	/^	prefix: "",$/;"	m
-primary	tailwind.config.ts	/^					primary: 'hsl(var(--sidebar-primary))',$/;"	m
-primary	tailwind.config.ts	/^				primary: {$/;"	m
-react	vite.config.ts	/^    react(),$/;"	m
-react	vite.config.ts	/^import react from "@vitejs\/plugin-react-swc";$/;"	I
-reducer	src/hooks/use-toast.ts	/^export const reducer = (state: State, action: Action): State => {$/;"	v
-resolve	vite.config.ts	/^  resolve: {$/;"	m
-return	src/components/Contact.tsx	/^  return ($/;"	m
-return	src/components/Footer.tsx	/^  return ($/;"	m
-return	src/components/Hero.tsx	/^  return ($/;"	m
-return	src/components/Navbar.tsx	/^  return ($/;"	m
-return	src/components/RandomWords.tsx	/^  return ($/;"	m
-return	src/components/Services.tsx	/^  return ($/;"	m
-return	src/components/ui/badge.tsx	/^  return ($/;"	m
-return	src/components/ui/breadcrumb.tsx	/^  return ($/;"	m
-return	src/components/ui/button.tsx	/^    return ($/;"	m
-return	src/components/ui/calendar.tsx	/^  return ($/;"	m
-return	src/components/ui/carousel.tsx	/^      return () => {$/;"	m
-return	src/components/ui/carousel.tsx	/^    return ($/;"	m
-return	src/components/ui/carousel.tsx	/^  return ($/;"	m
-return	src/components/ui/chart.tsx	/^            return ($/;"	m
-return	src/components/ui/chart.tsx	/^          return ($/;"	m
-return	src/components/ui/chart.tsx	/^        return ($/;"	m
-return	src/components/ui/chart.tsx	/^    return ($/;"	m
-return	src/components/ui/chart.tsx	/^  return ($/;"	m
-return	src/components/ui/command.tsx	/^  return ($/;"	m
-return	src/components/ui/context-menu.tsx	/^  return ($/;"	m
-return	src/components/ui/dropdown-menu.tsx	/^  return ($/;"	m
-return	src/components/ui/form.tsx	/^  return ($/;"	m
-return	src/components/ui/input-otp.tsx	/^  return ($/;"	m
-return	src/components/ui/input.tsx	/^    return ($/;"	m
-return	src/components/ui/menubar.tsx	/^  return ($/;"	m
-return	src/components/ui/radio-group.tsx	/^  return ($/;"	m
-return	src/components/ui/sidebar.tsx	/^      return ($/;"	m
-return	src/components/ui/sidebar.tsx	/^      return () => window.removeEventListener("keydown", handleKeyDown)$/;"	m
-return	src/components/ui/sidebar.tsx	/^    return ($/;"	m
-return	src/components/ui/sidebar.tsx	/^  return ($/;"	m
-return	src/components/ui/skeleton.tsx	/^  return ($/;"	m
-return	src/components/ui/sonner.tsx	/^  return ($/;"	m
-return	src/components/ui/textarea.tsx	/^    return ($/;"	m
-return	src/components/ui/toast.tsx	/^  return ($/;"	m
-return	src/components/ui/toaster.tsx	/^        return ($/;"	m
-return	src/components/ui/toaster.tsx	/^  return ($/;"	m
-return	src/components/ui/toggle-group.tsx	/^  return ($/;"	m
-return	src/hooks/use-mobile.tsx	/^    return () => mql.removeEventListener("change", onChange)$/;"	m
-return	src/hooks/use-toast.ts	/^    return () => {$/;"	m
-return	src/pages/About.tsx	/^  return ($/;"	m
-return	src/pages/Contact.tsx	/^  return ($/;"	m
-return	src/pages/Index.tsx	/^  return ($/;"	m
-return	src/pages/Services.tsx	/^  return ($/;"	m
-right	src/components/ui/sheet.tsx	/^        right:$/;"	m
-ring	tailwind.config.ts	/^					ring: 'hsl(var(--sidebar-ring))'$/;"	m
-ring	tailwind.config.ts	/^				ring: 'hsl(var(--ring))',$/;"	m
-role	src/components/RandomWords.tsx	/^                role: "user",$/;"	m
-row	src/components/ui/calendar.tsx	/^        row: "flex w-full mt-2",$/;"	m
-screens	tailwind.config.ts	/^			screens: {$/;"	m
-scrollNext	src/components/ui/carousel.tsx	/^          scrollNext()$/;"	m
-scrollNext	src/components/ui/carousel.tsx	/^  scrollNext: () => void$/;"	m
-scrollPrev	src/components/ui/carousel.tsx	/^          scrollPrev()$/;"	m
-scrollPrev	src/components/ui/carousel.tsx	/^  scrollPrev: () => void$/;"	m
-secondary	src/components/ui/badge.tsx	/^        secondary:$/;"	m
-secondary	src/components/ui/button.tsx	/^        secondary:$/;"	m
-secondary	tailwind.config.ts	/^				secondary: {$/;"	m
-server	vite.config.ts	/^  server: {$/;"	m
-setApi	src/components/ui/carousel.tsx	/^      setApi(api)$/;"	m
-setCanScrollNext	src/components/ui/carousel.tsx	/^      setCanScrollNext(api.canScrollNext())$/;"	m
-setCanScrollPrev	src/components/ui/carousel.tsx	/^      setCanScrollPrev(api.canScrollPrev())$/;"	m
-setIsLoading	src/components/RandomWords.tsx	/^      setIsLoading(false);$/;"	m
-setIsLoading	src/components/RandomWords.tsx	/^    setIsLoading(true);$/;"	m
-setIsMobile	src/hooks/use-mobile.tsx	/^      setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)$/;"	m
-setIsMobile	src/hooks/use-mobile.tsx	/^    setIsMobile(window.innerWidth < MOBILE_BREAKPOINT)$/;"	m
-setOpen	src/components/ui/sidebar.tsx	/^  setOpen: (open: boolean) => void$/;"	m
-setOpenMobile	src/components/ui/sidebar.tsx	/^  setOpenMobile: (open: boolean) => void$/;"	m
-setOpenProp	src/components/ui/sidebar.tsx	/^          setOpenProp(openState)$/;"	m
-setSelectedWord	src/components/RandomWords.tsx	/^      setSelectedWord(null); \/\/ 新しい単語リストが取得されたら選択をリセット$/;"	m
-setSelectedWord	src/components/RandomWords.tsx	/^    setSelectedWord(word);$/;"	m
-setWordContent	src/components/RandomWords.tsx	/^      setWordContent(content);$/;"	m
-setWords	src/components/RandomWords.tsx	/^      setWords(wordList);$/;"	m
-side	src/components/ui/sheet.tsx	/^      side: "right",$/;"	m
-side	src/components/ui/sheet.tsx	/^      side: {$/;"	m
-sidebar	tailwind.config.ts	/^				sidebar: {$/;"	m
-size	src/components/ui/button.tsx	/^      size: "default",$/;"	m
-size	src/components/ui/button.tsx	/^      size: {$/;"	m
-size	src/components/ui/sidebar.tsx	/^      size: "default",$/;"	m
-size	src/components/ui/sidebar.tsx	/^      size: {$/;"	m
-size	src/components/ui/toggle-group.tsx	/^          size: context.size || size,$/;"	m
-size	src/components/ui/toggle-group.tsx	/^  size: "default",$/;"	m
-size	src/components/ui/toggle.tsx	/^      size: "default",$/;"	m
-size	src/components/ui/toggle.tsx	/^      size: {$/;"	m
-sm	src/components/ui/button.tsx	/^        sm: "h-9 rounded-md px-3",$/;"	m
-sm	src/components/ui/sidebar.tsx	/^        sm: "h-7 text-xs",$/;"	m
-sm	src/components/ui/toggle.tsx	/^        sm: "h-9 px-2.5",$/;"	m
-sm	tailwind.config.ts	/^				sm: 'calc(var(--radius) - 4px)'$/;"	m
-state	src/components/ui/sidebar.tsx	/^  state: "expanded" | "collapsed"$/;"	m
-switch	src/hooks/use-toast.ts	/^  switch (action.type) {$/;"	m
-table	src/components/ui/calendar.tsx	/^        table: "w-full border-collapse space-y-1",$/;"	m
-theme	tailwind.config.ts	/^	theme: {$/;"	m
-title	src/components/Contact.tsx	/^      title: "送信完了",$/;"	m
-title	src/components/RandomWords.tsx	/^        title: "エラーが発生しました",$/;"	m
-title	src/components/RandomWords.tsx	/^        title: "更新完了",$/;"	m
-title	src/components/Services.tsx	/^    title: "システム開発",$/;"	m
-title	src/components/Services.tsx	/^    title: "セキュリティ対策",$/;"	m
-title	src/components/Services.tsx	/^    title: "技術コンサルティング",$/;"	m
-to	tailwind.config.ts	/^					to: {$/;"	m
-toast	src/components/Contact.tsx	/^    toast({$/;"	m
-toast	src/components/RandomWords.tsx	/^      toast({$/;"	m
-toast	src/components/ui/sonner.tsx	/^          toast:$/;"	m
-toast	src/hooks/use-toast.ts	/^      toast: Partial<ToasterToast>$/;"	m
-toast	src/hooks/use-toast.ts	/^      toast: ToasterToast$/;"	m
-toast	src/hooks/use-toast.ts	/^      toast: { ...props, id },$/;"	m
-toast	src/hooks/use-toast.ts	/^    toast: {$/;"	m
-toast	src/hooks/use-toast.ts	/^function toast({ ...props }: Toast) {$/;"	f
-toastId	src/hooks/use-toast.ts	/^      toastId: toastId,$/;"	m
-toasts	src/hooks/use-toast.ts	/^          toasts: [],$/;"	m
-toasts	src/hooks/use-toast.ts	/^        toasts: [action.toast, ...state.toasts].slice(0, TOAST_LIMIT),$/;"	m
-toasts	src/hooks/use-toast.ts	/^        toasts: state.toasts.filter((t) => t.id !== action.toastId),$/;"	m
-toasts	src/hooks/use-toast.ts	/^        toasts: state.toasts.map((t) =>$/;"	m
-toasts	src/hooks/use-toast.ts	/^  toasts: ToasterToast[]$/;"	m
-toggleSidebar	src/components/ui/sidebar.tsx	/^          toggleSidebar()$/;"	m
-toggleSidebar	src/components/ui/sidebar.tsx	/^        toggleSidebar()$/;"	m
-toggleSidebar	src/components/ui/sidebar.tsx	/^  toggleSidebar: () => void$/;"	m
-toggleVariants	src/components/ui/toggle-group.tsx	/^        toggleVariants({$/;"	m
-top	src/components/ui/sheet.tsx	/^        top: "inset-x-0 top-0 border-b data-[state=closed]:slide-out-to-top data-[state=open]:slide-in-from-top",$/;"	m
-type	src/hooks/use-toast.ts	/^      type: "REMOVE_TOAST",$/;"	m
-type	src/hooks/use-toast.ts	/^      type: "UPDATE_TOAST",$/;"	m
-type	src/hooks/use-toast.ts	/^      type: ActionType["ADD_TOAST"]$/;"	m
-type	src/hooks/use-toast.ts	/^      type: ActionType["DISMISS_TOAST"]$/;"	m
-type	src/hooks/use-toast.ts	/^      type: ActionType["REMOVE_TOAST"]$/;"	m
-type	src/hooks/use-toast.ts	/^      type: ActionType["UPDATE_TOAST"]$/;"	m
-type	src/hooks/use-toast.ts	/^    type: "ADD_TOAST",$/;"	m
-type	src/hooks/use-toast.ts	/^import type {$/;"	I
+type	app/layout.tsx	/^import type { Metadata } from "next";$/;"	I
+React	app/layout.tsx	/^import React from "react";$/;"	I
+Footer	app/layout.tsx	/^import Footer from "@\/components\/Footer";$/;"	I
+metadata	app/layout.tsx	/^export const metadata: Metadata = {$/;"	v
+title	app/layout.tsx	/^  title: "この流れは覚えておきたい",$/;"	m
+description	app/layout.tsx	/^  description: "ビジネスや生活に役立つアクションのステップを提供",$/;"	m
+icons	app/layout.tsx	/^  icons: {$/;"	m
+icon	app/layout.tsx	/^    icon: [{ url: ".\/favicon.ico" }, { url: ".\/icon.png", type: "image\/png" }],$/;"	m
+apple	app/layout.tsx	/^    apple: { url: ".\/apple-icon.png" },$/;"	m
+openGraph	app/layout.tsx	/^  openGraph: {$/;"	m
+title	app/layout.tsx	/^    title: "この流れは覚えておきたい",$/;"	m
+description	app/layout.tsx	/^    description: "ビジネスや生活に役立つアクションのステップを提供",$/;"	m
+images	app/layout.tsx	/^    images: [$/;"	m
+url	app/layout.tsx	/^        url: ".\/og-image.png",$/;"	m
+width	app/layout.tsx	/^        width: 1200,$/;"	m
+height	app/layout.tsx	/^        height: 630,$/;"	m
+alt	app/layout.tsx	/^        alt: "この流れは覚えておきたい",$/;"	m
+twitter	app/layout.tsx	/^  twitter: {$/;"	m
+card	app/layout.tsx	/^    card: "summary_large_image",$/;"	m
+title	app/layout.tsx	/^    title: "この流れは覚えておきたい",$/;"	m
+description	app/layout.tsx	/^    description: "ビジネスや生活に役立つアクションのステップを提供",$/;"	m
+images	app/layout.tsx	/^    images: [".\/og-image.png"],$/;"	m
+creator	app/layout.tsx	/^    creator: "@tacarzen",$/;"	m
+RootLayout	app/layout.tsx	/^export default function RootLayout({$/;"	f
+children	app/layout.tsx	/^  children: React.ReactNode;$/;"	m
+return	app/layout.tsx	/^  return ($/;"	m
 type	tailwind.config.ts	/^import type { Config } from "tailwindcss";$/;"	I
-useCarousel	src/components/ui/carousel.tsx	/^function useCarousel() {$/;"	f
-useChart	src/components/ui/chart.tsx	/^function useChart() {$/;"	f
-useEffect	src/components/RandomWords.tsx	/^  useEffect(() => {$/;"	m
-useEmblaCarousel	src/components/ui/carousel.tsx	/^import useEmblaCarousel, {$/;"	I
-useIsMobile	src/hooks/use-mobile.tsx	/^export function useIsMobile() {$/;"	f
-useSidebar	src/components/ui/sidebar.tsx	/^function useSidebar() {$/;"	f
-useToast	src/hooks/use-toast.ts	/^function useToast() {$/;"	f
-variant	src/components/RandomWords.tsx	/^        variant: "destructive",$/;"	m
-variant	src/components/ui/alert.tsx	/^      variant: "default",$/;"	m
-variant	src/components/ui/alert.tsx	/^      variant: {$/;"	m
-variant	src/components/ui/badge.tsx	/^      variant: "default",$/;"	m
-variant	src/components/ui/badge.tsx	/^      variant: {$/;"	m
-variant	src/components/ui/button.tsx	/^      variant: "default",$/;"	m
-variant	src/components/ui/button.tsx	/^      variant: {$/;"	m
-variant	src/components/ui/pagination.tsx	/^        variant: isActive ? "outline" : "ghost",$/;"	m
-variant	src/components/ui/sidebar.tsx	/^      variant: "default",$/;"	m
-variant	src/components/ui/sidebar.tsx	/^      variant: {$/;"	m
-variant	src/components/ui/toast.tsx	/^      variant: "default",$/;"	m
-variant	src/components/ui/toast.tsx	/^      variant: {$/;"	m
-variant	src/components/ui/toggle-group.tsx	/^          variant: context.variant || variant,$/;"	m
-variant	src/components/ui/toggle-group.tsx	/^  variant: "default",$/;"	m
-variant	src/components/ui/toggle.tsx	/^      variant: "default",$/;"	m
-variant	src/components/ui/toggle.tsx	/^      variant: {$/;"	m
-variants	src/components/ui/alert.tsx	/^    variants: {$/;"	m
-variants	src/components/ui/badge.tsx	/^    variants: {$/;"	m
-variants	src/components/ui/button.tsx	/^    variants: {$/;"	m
-variants	src/components/ui/sheet.tsx	/^    variants: {$/;"	m
-variants	src/components/ui/sidebar.tsx	/^    variants: {$/;"	m
-variants	src/components/ui/toast.tsx	/^    variants: {$/;"	m
-variants	src/components/ui/toggle.tsx	/^    variants: {$/;"	m
+darkMode	tailwind.config.ts	/^	darkMode: ["class"],$/;"	m
+content	tailwind.config.ts	/^	content: [$/;"	m
+prefix	tailwind.config.ts	/^	prefix: "",$/;"	m
+theme	tailwind.config.ts	/^	theme: {$/;"	m
+container	tailwind.config.ts	/^		container: {$/;"	m
+center	tailwind.config.ts	/^			center: true,$/;"	m
+padding	tailwind.config.ts	/^			padding: '2rem',$/;"	m
+screens	tailwind.config.ts	/^			screens: {$/;"	m
+extend	tailwind.config.ts	/^		extend: {$/;"	m
+colors	tailwind.config.ts	/^			colors: {$/;"	m
+border	tailwind.config.ts	/^				border: 'hsl(var(--border))',$/;"	m
+input	tailwind.config.ts	/^				input: 'hsl(var(--input))',$/;"	m
+ring	tailwind.config.ts	/^				ring: 'hsl(var(--ring))',$/;"	m
+background	tailwind.config.ts	/^				background: 'hsl(var(--background))',$/;"	m
+foreground	tailwind.config.ts	/^				foreground: 'hsl(var(--foreground))',$/;"	m
+primary	tailwind.config.ts	/^				primary: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--primary))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--primary-foreground))'$/;"	m
+secondary	tailwind.config.ts	/^				secondary: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--secondary))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--secondary-foreground))'$/;"	m
+destructive	tailwind.config.ts	/^				destructive: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--destructive))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--destructive-foreground))'$/;"	m
+muted	tailwind.config.ts	/^				muted: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--muted))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--muted-foreground))'$/;"	m
+accent	tailwind.config.ts	/^				accent: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--accent))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--accent-foreground))'$/;"	m
+popover	tailwind.config.ts	/^				popover: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--popover))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--popover-foreground))'$/;"	m
+card	tailwind.config.ts	/^				card: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--card))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--card-foreground))'$/;"	m
+sidebar	tailwind.config.ts	/^				sidebar: {$/;"	m
+DEFAULT	tailwind.config.ts	/^					DEFAULT: 'hsl(var(--sidebar-background))',$/;"	m
+foreground	tailwind.config.ts	/^					foreground: 'hsl(var(--sidebar-foreground))',$/;"	m
+primary	tailwind.config.ts	/^					primary: 'hsl(var(--sidebar-primary))',$/;"	m
+accent	tailwind.config.ts	/^					accent: 'hsl(var(--sidebar-accent))',$/;"	m
+border	tailwind.config.ts	/^					border: 'hsl(var(--sidebar-border))',$/;"	m
+ring	tailwind.config.ts	/^					ring: 'hsl(var(--sidebar-ring))'$/;"	m
+borderRadius	tailwind.config.ts	/^			borderRadius: {$/;"	m
+lg	tailwind.config.ts	/^				lg: 'var(--radius)',$/;"	m
+md	tailwind.config.ts	/^				md: 'calc(var(--radius) - 2px)',$/;"	m
+sm	tailwind.config.ts	/^				sm: 'calc(var(--radius) - 4px)'$/;"	m
+keyframes	tailwind.config.ts	/^			keyframes: {$/;"	m
+from	tailwind.config.ts	/^					from: {$/;"	m
+height	tailwind.config.ts	/^						height: '0'$/;"	m
+to	tailwind.config.ts	/^					to: {$/;"	m
+height	tailwind.config.ts	/^						height: 'var(--radix-accordion-content-height)'$/;"	m
+from	tailwind.config.ts	/^					from: {$/;"	m
+height	tailwind.config.ts	/^						height: 'var(--radix-accordion-content-height)'$/;"	m
+to	tailwind.config.ts	/^					to: {$/;"	m
+height	tailwind.config.ts	/^						height: '0'$/;"	m
+animation	tailwind.config.ts	/^			animation: {$/;"	m
+plugins	tailwind.config.ts	/^	plugins: [require("tailwindcss-animate")],$/;"	m
+const.Access-Control-Allow-Origin	workers/index.js	/^  "Access-Control-Allow-Origin": "*", \/\/ 本番環境では具体的なオリジンを指定$/;"	p
+const.Access-Control-Allow-Methods	workers/index.js	/^  "Access-Control-Allow-Methods": "GET,HEAD,POST,OPTIONS",$/;"	p
+const.Access-Control-Max-Age	workers/index.js	/^  "Access-Control-Max-Age": "86400",$/;"	p
+const.Access-Control-Allow-Headers	workers/index.js	/^  "Access-Control-Allow-Headers": "Content-Type, Authorization",$/;"	p
+react	vite.config.ts	/^import react from "@vitejs\/plugin-react";$/;"	I
+path	vite.config.ts	/^import path from "path";$/;"	I
+plugins	vite.config.ts	/^  plugins: [react()],$/;"	m
+server	vite.config.ts	/^  server: {$/;"	m
+port	vite.config.ts	/^    port: 3000,$/;"	m
+base	vite.config.ts	/^  base: "\/",$/;"	m
+resolve	vite.config.ts	/^  resolve: {$/;"	m
+alias	vite.config.ts	/^    alias: {$/;"	m
+Navbar	src/App.tsx	/^import Navbar from ".\/components\/Navbar";$/;"	I
+Footer	src/App.tsx	/^import Footer from ".\/components\/Footer";$/;"	I
+AppRoutes	src/App.tsx	/^import AppRoutes from ".\/routes\/index";$/;"	I
+App	src/main.tsx	/^import App from ".\/App.tsx";$/;"	I
+createRoot	src/main.tsx	/^createRoot(document.getElementById("root")!).render(<App \/>);$/;"	m
+return	src/components/Hero.tsx	/^  return ($/;"	m
