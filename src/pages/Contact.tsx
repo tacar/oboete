@@ -31,6 +31,9 @@ const Contact = () => {
           <p className="text-sm text-muted-foreground/80">
             ご要望やご感想もお待ちしております。
           </p>
+          <p className="text-xs text-muted-foreground/60">
+            ※ 本サービスは予告なく終了する場合がございます。
+          </p>
         </div>
       </div>
     </section>
